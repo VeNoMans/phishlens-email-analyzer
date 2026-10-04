@@ -1,0 +1,9 @@
+Place four PNG screenshots here, named exactly so the README embeds them:
+
+  overview.png     - the upload / interface overview page
+  phishing.png     - a report showing a PHISHING verdict
+  suspicious.png   - a report showing a SUSPICIOUS verdict
+  clean.png        - a report showing a CLEAN verdict
+
+To capture: run the app (docker compose up --build), open http://localhost:8000,
+analyze the bundled samples (the chips), and screenshot each report.

@@ -1,0 +1,30 @@
+# --- secrets (NEVER commit) ---
+.env
+api key.txt
+*.key
+
+# --- runtime data ---
+cache.db
+*.sqlite
+*.sqlite3
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# --- os / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# original design docs / prototype — kept locally, excluded from the repo for a lean layout
+PhishLens — Project Context & Structure Guide.md
+PhishLens — Project Context & Structure Guide.pdf
+phishlens_prototype.html
